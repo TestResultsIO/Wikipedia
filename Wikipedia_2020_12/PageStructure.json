@@ -1,0 +1,377 @@
+{
+  "Pages": [
+    {
+      "Name": "WelcomeScreen",
+      "DisplayName": "Welcome Screen",
+      "RelativeLocation": "Screens",
+      "OpenImagePath": "Images.WelcomeScreen.Screen_Loaded",
+      "Elements": [
+        {
+          "Name": "English",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "English"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.WelcomeScreen.English.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "German",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "German"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.WelcomeScreen.German.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "MainScreen",
+      "DisplayName": "Main Screen",
+      "RelativeLocation": "Screens",
+      "OpenImagePath": "Images.MainScreen.Screen_Loaded",
+      "Elements": []
+    },
+    {
+      "Name": "LoginScreen",
+      "DisplayName": "Login screen",
+      "RelativeLocation": "Screens",
+      "OpenImagePath": "Images.LoginScreen.Screen_Loaded",
+      "Elements": [
+        {
+          "Name": "Username",
+          "Type": "Progile.TRIO.BaseModel.TextBox",
+          "Parameters": [
+            {
+              "Name": "appBasics",
+              "Value": "AppBasics"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Username"
+            },
+            {
+              "Name": "imageReference",
+              "Value": "Images.LoginScreen.Username"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "Password",
+          "Type": "Progile.TRIO.BaseModel.PwTextBox",
+          "Parameters": [
+            {
+              "Name": "appBasics",
+              "Value": "AppBasics"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Password"
+            },
+            {
+              "Name": "imageReference",
+              "Value": "Images.LoginScreen.Password.TextBoxImage"
+            },
+            {
+              "Name": "pwCharImage",
+              "Value": "Images.LoginScreen.Password.BlindCharImage"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "KeepMeLoggedIn",
+          "Type": "Progile.TRIO.BaseModel.Checkbox",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Keep me logged in"
+            },
+            {
+              "Name": "checkedImageReference",
+              "Value": "Images.LoginScreen.KeepMeLoggedIn._checked"
+            },
+            {
+              "Name": "uncheckedImageReference",
+              "Value": "Images.LoginScreen.KeepMeLoggedIn._unchecked"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "LogInButton",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Log in Button"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.LoginScreen.LogInButton.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "Help",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Help"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.LoginScreen.Help.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "ForgotPassword",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Forgot password"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.LoginScreen.ForgotPassword.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "JoinWikipedia",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Join Wikipedia"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.LoginScreen.JoinWikipedia.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "TopMenu",
+      "DisplayName": "Top Menu",
+      "RelativeLocation": "Screens",
+      "OpenImagePath": "Images.TopMenu.Screen_Loaded",
+      "Elements": [
+        {
+          "Name": "CreateAccount",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Create account"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.TopMenu.CreateAccount.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "LogIn",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Log in"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.TopMenu.LogIn.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "LogOut",
+          "Type": "Progile.TRIO.BaseModel.Button",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Log out"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "activeImageReference",
+              "Value": "Images.TopMenu.LogOut.active"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        },
+        {
+          "Name": "LoggedInUser",
+          "Type": "Progile.TRIO.BaseModel.LabelWithValue",
+          "Parameters": [
+            {
+              "Name": "tester",
+              "Value": "t"
+            },
+            {
+              "Name": "displayName",
+              "Value": "Logged in user"
+            },
+            {
+              "Name": "valuePosition",
+              "Value": "Right"
+            },
+            {
+              "Name": "searchType",
+              "Value": "Image"
+            },
+            {
+              "Name": "imageReferenceForLabel",
+              "Value": "Images.TopMenu.LoggedInUser"
+            },
+            {
+              "Name": "gridWidth",
+              "Value": "800"
+            },
+            {
+              "Name": "filters",
+              "Value": "ScreenSelect"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

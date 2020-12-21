@@ -1,0 +1,25 @@
+{
+  "CustomerId": "00000000-0000-0000-0000-000000000090",
+  "ProjectId": "73684f82-1be8-4448-b47e-7e9d98bd0a99",
+  "ServerUri": "https://prod.testresults.io/",
+  "Environments": [
+    {
+      "$type": "Progile.Trio.Designer.DomainObjects.EnvironmentImage, Progile.Trio.Designer",
+      "ImagePathStaticEnvironment": null,
+      "RaiseImagePathPopupBeforeExecution": false,
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "Static image"
+    },
+    {
+      "$type": "Progile.Trio.Designer.DomainObjects.EnvironmentVNC, Progile.Trio.Designer",
+      "Ip": "192.168.12.172",
+      "Username": "",
+      "Password": "tr.io",
+      "RemoteDirectory": "",
+      "Protocol": "VNC",
+      "Id": "eaea2dd8-36ad-4358-87ad-306af626d3bc",
+      "Name": "Win10 Dev"
+    }
+  ],
+  "SolutionVersion": "3.1"
+}
